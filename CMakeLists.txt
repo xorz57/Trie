@@ -3,4 +3,4 @@ project(Trie)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Trie src/Main.cpp)
+add_executable(Trie src/Example.cpp)
