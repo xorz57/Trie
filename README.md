@@ -1,6 +1,9 @@
 <h1 align="center">Trie</h1>
 
 <div align="center">
+    <a href="LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+    </a>
     <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
         <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=alert_status" alt="Quality Gate Status">
     </a>
