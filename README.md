@@ -17,9 +17,6 @@
         <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=code_smells" alt="Code Smells">
     </a>
     <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
-        <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=coverage" alt="Coverage">
-    </a>
-    <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
         <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=duplicated_lines_density" alt="Duplicated Lines (%)">
     </a>
 </div>
