@@ -1,25 +1,7 @@
-<h1 align="center">Trie</h1>
+# Trie
 
-<div align="center">
-    <a href="LICENSE">
-        <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-    </a>
-    <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
-        <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=alert_status" alt="Quality Gate Status">
-    </a>
-    <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
-        <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=bugs" alt="Bugs">
-    </a>
-    <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
-        <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=vulnerabilities" alt="Vulnerabilities">
-    </a>
-    <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
-        <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=code_smells" alt="Code Smells">
-    </a>
-    <a href="https://sonarcloud.io/summary/new_code?id=xorz57_Trie">
-        <img src="https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=duplicated_lines_density" alt="Duplicated Lines (%)">
-    </a>
-</div>
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=xorz57_Trie&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=xorz57_Trie)
 
 ## Example
 
