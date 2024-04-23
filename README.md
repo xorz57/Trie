@@ -16,35 +16,35 @@ int main() {
     trie.Insert("apple");
     trie.Insert("app");
 
-	if (trie.Search("apple")) {
-	    std::cout << "Search 'apple': True" << std::endl;
-	} else {
-		std::cout << "Search 'apple': False" << std::endl;
-	}
+    if (trie.Search("apple")) {
+        std::cout << "Search 'apple': True" << std::endl;
+    } else {
+        std::cout << "Search 'apple': False" << std::endl;
+    }
 
-	if (trie.Search("app")) {
-	    std::cout << "Search 'app': True" << std::endl;
-	} else {
-		std::cout << "Search 'app': False" << std::endl;
-	}
+    if (trie.Search("app")) {
+        std::cout << "Search 'app': True" << std::endl;
+    } else {
+        std::cout << "Search 'app': False" << std::endl;
+    }
 
-	if (trie.Search("ap")) {
-	    std::cout << "Search 'ap': True" << std::endl;
-	} else {
-		std::cout << "Search 'ap': False" << std::endl;
-	}
+    if (trie.Search("ap")) {
+        std::cout << "Search 'ap': True" << std::endl;
+    } else {
+        std::cout << "Search 'ap': False" << std::endl;
+    }
 
-	if (trie.StartsWith("app")) {
-	    std::cout << "StartsWith 'app': True" << std::endl;
-	} else {
-	    std::cout << "StartsWith 'app': False" << std::endl;
-	}
+    if (trie.StartsWith("app")) {
+        std::cout << "StartsWith 'app': True" << std::endl;
+    } else {
+        std::cout << "StartsWith 'app': False" << std::endl;
+    }
 
-	if (trie.StartsWith("bat")) {
-	    std::cout << "StartsWith 'bat': True" << std::endl;
-	} else {
-	    std::cout << "StartsWith 'bat': False" << std::endl;
-	}
+    if (trie.StartsWith("bat")) {
+        std::cout << "StartsWith 'bat': True" << std::endl;
+    } else {
+        std::cout << "StartsWith 'bat': False" << std::endl;
+    }
 
     return 0;
 }
