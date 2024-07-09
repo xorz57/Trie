@@ -11,39 +11,39 @@
 #include <iostream>
 
 int main() {
-    Trie<char> trie;
+    trie_t<char> trie;
 
-    trie.Insert("apple");
-    trie.Insert("app");
+    trie.insert("apple");
+    trie.insert("app");
 
-    if (trie.Search("apple")) {
+    if (trie.search("apple")) {
         std::cout << "Search 'apple': True" << std::endl;
     } else {
         std::cout << "Search 'apple': False" << std::endl;
     }
 
-    if (trie.Search("app")) {
+    if (trie.search("app")) {
         std::cout << "Search 'app': True" << std::endl;
     } else {
         std::cout << "Search 'app': False" << std::endl;
     }
 
-    if (trie.Search("ap")) {
+    if (trie.search("ap")) {
         std::cout << "Search 'ap': True" << std::endl;
     } else {
         std::cout << "Search 'ap': False" << std::endl;
     }
 
-    if (trie.StartsWith("app")) {
-        std::cout << "StartsWith 'app': True" << std::endl;
+    if (trie.starts_with("app")) {
+        std::cout << "Starts with 'app': True" << std::endl;
     } else {
-        std::cout << "StartsWith 'app': False" << std::endl;
+        std::cout << "Starts with 'app': False" << std::endl;
     }
 
-    if (trie.StartsWith("bat")) {
-        std::cout << "StartsWith 'bat': True" << std::endl;
+    if (trie.starts_with("bat")) {
+        std::cout << "Starts with 'bat': True" << std::endl;
     } else {
-        std::cout << "StartsWith 'bat': False" << std::endl;
+        std::cout << "Starts with 'bat': False" << std::endl;
     }
 
     return 0;
