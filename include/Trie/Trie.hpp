@@ -34,37 +34,37 @@ public:
     void insert(const std::basic_string<T> &word) {
         trie_t *current = this;
         for (T character: word) {
-            if (current->children.find(character) == current->children.end()) {
-                current->children[character] = std::make_shared<trie_t>();
+            if (current->m_children.find(character) == current->m_children.end()) {
+                current->m_children[character] = std::make_shared<trie_t>();
             }
-            current = current->children[character].get();
+            current = current->m_children[character].get();
         }
-        current->is_end_of_word = true;
+        current->m_is_end_of_word = true;
     }
 
     bool search(const std::basic_string<T> &word) {
         trie_t *current = this;
         for (T character: word) {
-            if (current->children.find(character) == current->children.end()) {
+            if (current->m_children.find(character) == current->m_children.end()) {
                 return false;
             }
-            current = current->children[character].get();
+            current = current->m_children[character].get();
         }
-        return current->is_end_of_word;
+        return current->m_is_end_of_word;
     }
 
     bool starts_with(const std::basic_string<T> &prefix) {
         trie_t *current = this;
         for (T character: prefix) {
-            if (current->children.find(character) == current->children.end()) {
+            if (current->m_children.find(character) == current->m_children.end()) {
                 return false;
             }
-            current = current->children[character].get();
+            current = current->m_children[character].get();
         }
         return true;
     }
 
 private:
-    std::unordered_map<T, std::shared_ptr<trie_t>> children;
-    bool is_end_of_word = false;
+    std::unordered_map<T, std::shared_ptr<trie_t>> m_children;
+    bool m_is_end_of_word = false;
 };
