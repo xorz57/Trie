@@ -1,0 +1,21 @@
+var NAVTREEINDEX0 =
+{
+"Trie_8hpp.html":[3,0,0,0,0],
+"Trie_8hpp_source.html":[3,0,0,0,0],
+"annotated.html":[2,0],
+"classes.html":[2,1],
+"classtrie__t.html":[2,0,0],
+"classtrie__t.html#a38f4ee56af326855636522e6061d366e":[2,0,0,2],
+"classtrie__t.html#a4b6988f83d64700aa531523a6fc74727":[2,0,0,3],
+"classtrie__t.html#a926120b8b52edc0b4da804571e25f54a":[2,0,0,0],
+"classtrie__t.html#aa49f84f6fc78d9abc857cb60dfa4e0b8":[2,0,0,1],
+"dir_d44c64559bbebec7f509842c48db8b23.html":[3,0,0],
+"dir_f099dd3baa83ec76ae0e313d8ff4cade.html":[3,0,0,0],
+"files.html":[3,0],
+"functions.html":[2,2,0],
+"functions_func.html":[2,2,1],
+"index.html":[],
+"index.html#autotoc_md1":[0],
+"index.html#autotoc_md2":[1],
+"pages.html":[]
+};
